@@ -1,0 +1,12 @@
+document.firstElementChild.lastElementChild.firstElementChild.innerHTML="Good Bye";
+document.querySelector("h1").innerHTML="HI";
+document.querySelector("h1").style.color="red";
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+heading.innerHTML = "Bye bye";
+heading.style.color="green";
+document.getElementsByTagName('li')[2].style.color="red";
+document.getElementsByClassName('btn')[0].style.color="yellow";
+document.getElementById('title').style.color="purple";
+document.querySelector("h1").style.fontSize="5rem";
+document.querySelector("h1").classList.add("visible");
+document.querySelector("h1").classList.remove("visible");
